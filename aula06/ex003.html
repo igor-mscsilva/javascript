@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
     <style>
-        body{
+        body{ /* Comentario em CSS*/
             font-family: Arial, Helvetica, sans-serif;
             color: white;
             font-size: 20px;
@@ -18,13 +18,16 @@
     </style>
 </head>
 <body>
-    <h1>Olá mundo !</h1>
+    <h1>Olá mundo !</h1> <!--Comentario em HTML-->
     <p>ja me livrei da maldição!</p>
     <script>
-        window.alert('Minha primeira mesagem'); // Janela com aviso !
-        window.confirm('Esta gostando de JS?'); // Janela com o botão OK e Cancelar
-        window.prompt('Qual é seu nome?'); // Vai perguntar o nome
-
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        //window.alert('O total é: ' + s )
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s} `)
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
 </html>

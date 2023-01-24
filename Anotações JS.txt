@@ -1,0 +1,57 @@
+Mostrar caixa de mensagem no site "Alerta":
+window.alert('Minha primeira mesagem');
+
+Abrir caixa de texto com pergunta no site "Confirmação":
+window.confirm('Esta gostando de JS?');
+
+Abrir caixa de mensagem no site com pergunta "Perguntas":
+window.prompt('Qual é seu nome?');
+
+=========Tipo de comentarios no JS==========
+
+ // - uma unica linha
+/* */ - mais de uma linha de código
+============================================
+
+Sinal de (=)  significa recebe.
+
+Sinal de (==) 
+
+null - nula
+
+3 formas de utilizar string - ("") ('') (´´)
+
+variaveis - Var ou Let
+
+Tipos de identificadores - (letra) ($) (_), não podem começar com numeros
+
+Ctrl + L - no terminal ele limpa as informações na tela.
+
+Tipos de dados - (Number) (String) (boolean)
+
+Typeof - Mostrar qual o tipo de dado consta na variavel.
+
+Converção de string para numero:
+Number.perseInt(n) ou Number.perseFloat(n)
+Ou somente Number
+//Usar template string - `Eu estou aprendendo ${s}`
+
+s.length // quantos caracteres a string tem
+
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+
+s.toLowerCase() // tudo para 'minúsculas'
+
+toFixed(2) - deixar o numero com 2 casas decimais.
+
+toFixed(2).replace('.' , ',') - trocar o (.) para (,)
+
+toLocaleString - mostra os valores na localização desejada.
+
+Exemplo:
+ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 1.545,50'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+'US$ 1.545,50'
+> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+'€ 1.545,50'
