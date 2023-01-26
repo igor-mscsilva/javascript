@@ -55,3 +55,18 @@ Exemplo:
 'US$ 1.545,50'
 > n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
 '€ 1.545,50'
+
+Tipo de operadores ARITMÉTICOS
+ 5 (+) 2 = 7
+ 5 (-) 2 = 3
+ 5 (*) 2 = 10
+ 5 (/) 2 = 2.5
+ 5 (%) 2 = 1 - seria o resto da conta
+ 5 (**) 2 = 25 - seria ao quadrado
+
+Ordem de Precedência
+
+1° ()
+2° **
+3° * / %
+4° + -
