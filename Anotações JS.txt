@@ -70,3 +70,33 @@ Ordem de Precedência
 2° **
 3° * / %
 4° + -
+
+Operadores Relacionais
+
+> - maior
+< - menor
+>= - maior ou igual
+<= - menor ou igual
+== - igual
+!= - diferente
+
+Operadores Lógicos
+
+! - negação
+&& - conjunção ou (e) logico
+|| - disjunção ou (ou) logico
+
+Precedência - ordem de resolução
+
+() ** / ...  - aritimeticos
+> < >=       - relacionais
+! && ||	     - logicos
+
+Operador ternario
+
+? :
+=  - recebe
+== - igual
+=== - identico
+
+DOOM - Document Object Model
