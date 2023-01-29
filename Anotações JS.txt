@@ -100,3 +100,6 @@ Operador ternario
 === - identico
 
 DOOM - Document Object Model
+
+id = #
+class = .
