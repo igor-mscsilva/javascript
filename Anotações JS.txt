@@ -103,3 +103,11 @@ DOOM - Document Object Model
 
 id = #
 class = .
+
+Técnicas para acessar o DOM
+
+TagName
+ID
+Name
+ClassName
+querySelector

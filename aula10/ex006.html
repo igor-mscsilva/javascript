@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area{
+            font: normal 15pt arial;
+            background-color: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">
+        Interaja...
+    </div>
+    <input type="submit" value="Enviar">
+    <script>
+        function clicar(){
+            //a = window.document.getElementById('area')
+            //Usando esse metodos acima todos a baixo poderao utilizar a variavel sem precisar chamar ela novamente.
+
+            var a = window.document.getElementById('area')
+            a.style.background = 'red'
+            a.innerText = 'Clicou!'
+        }
+        function entrou(){
+            var a = window.document.getElementById('area')
+            a.innerText = 'Entrou!'
+        }
+
+        function saiu(){
+            var a = window.document.getElementById('area')
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
+    </script>
+    
+</body>
+</html>
