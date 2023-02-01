@@ -111,3 +111,40 @@ ID
 Name
 ClassName
 querySelector
+
+===TIPOS DE CONDIÇÕES===
+
+Simples : if (condição){
+		[true]
+
+
+Composta : if (condição){
+		[true]
+	   } else{
+		[false]
+
+Aninhada : if (condição){
+		[true]
+	   } elseif{
+		[true]
+	   }else{
+	        [false]
+
+Switch(expressão){
+     case valor 1:
+	 [true]
+	 break : break é o obrigatorio quando usa switch case, senão ele ira fazer todos os valores a baixo da condição.
+
+     case valor 2:
+	 [true]
+	 break
+
+     case valor 3:
+	 [true]
+	 break
+
+
+     default:
+
+}
+		
