@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de País</title>
+</head>
+<body>
+    <h1>Consulta de País</h1>
+    Informe o seu país <input type="text" name="pais" id="pais">
+    <input type="button" value="Consultar" onclick="consultar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        var txtp = window.document.getElementById('pais')
+        var res = window.document.getElementById('res')
+
+        function consultar() {
+        
+        var pais = txtp.value
+
+        res.innerHTML = `<br>Vivendo em ${pais}, você é: `
+        if(pais == 'Brasil'){
+        res.innerHTML +=`<p>Brasileiro, Seja <strong>Bem-Vindo!</strong></p>`
+        }else{
+        res.innerHTML +=`<p>Estrangeiro, seja <strong>Bem-Vindo!</strong></p>`}
+}
+    </script>
+</body>
+</html>
