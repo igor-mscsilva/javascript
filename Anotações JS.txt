@@ -147,4 +147,6 @@ Switch(expressão){
      default:
 
 }
+
+while = enquanto
 		
