@@ -3,13 +3,17 @@ function verificar(){
     var ano = data.getFullYear() // pegar ano atual, 4 digitos
     var formano = window.document.getElementById('txtano')
     var res = window.document.querySelector('div#res')
+    var fundo  = window.document.querySelector('div#fund')
+    
+    
+   
     if(formano.value.length == 0 || formano.value > ano){
         window.alert('Verifique os dados e tente novamente!')
     } else{
         var sexo = document.getElementsByName('sexo')
         var idade = ano - Number(formano.value)
         var genero = ''
-        //Criar tag utilizando JS
+        //Criar a tag img utilizando JS
         var img = document.createElement('img')
         //Atribuindo id na tag 'img', utilizando JS
         img.setAttribute('id','foto' )
@@ -25,6 +29,8 @@ function verificar(){
             }else if (idade < 50){
                 //Adulto
                 img.setAttribute('src', 'hdulto.png')
+                
+              //fundo =  document.getElementById('fund').style.backgroundColor = '#FF0000';//codigo hexadecimal para vermelho, mudar o background
             }else {
                 //Idoso
                 img.setAttribute('src', 'hvelho.png')
@@ -48,12 +54,14 @@ function verificar(){
         }
         //centraliza o texto em js.
         res.style.textAlign = 'center' 
+        
 
         // mostrar o resultado na tela com js.
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
 
         // Mostrar conteudo em baixo do de cima
         res.appendChild(img)
+        
 
                  
     }
