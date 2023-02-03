@@ -147,6 +147,40 @@ Switch(expressão){
      default:
 
 }
-
+ =====Estrutura de repetição=====
 while = enquanto
+ do  = faça
+
+----------------------------
+  Teste logico no Inicio
+
+while (condição){
+	[bloco]
+}
+
+----------------------------
+  Teste logico no final
+
+do{
+ [bloco]
+}while(condição)
+
+----------------------------
+  Repetição com teste lógico
+
+for(inicio; teste; incremento){
+   [bloco]
+
+}
+===========================
+Exemplo :
+
+// === Estrutura FOR ===
+
+//  Variavel  / Teste / Incremento 
+for(var c = 1; c <= 6; c++){
+    console.log(`Numero: ${c}`)
+}
+==========================
+
 		
