@@ -182,5 +182,27 @@ for(var c = 1; c <= 6; c++){
     console.log(`Numero: ${c}`)
 }
 ==========================
+	array / vetor / variavel composta
+
+Vetor é uma variavel com varios espaços, e cada espaço
+tem um indice que o identifica, começando pelo 0
+
+===Formas de adicionar um numero em array===
+
+var num = [5, 7, 9]
+
+num[3] = 6 - ira adionar mais um numero
+
+num.push(7) - ira adicionar automaticamente o numero no final
+
+num.length - mostrar quantas casas tem preenchidas
+
+num.sort() - colocar os numeros em ordem crescente.
+
+for - para
+
+in - dentro ou em
+
+num.indexOf(7) - buscar o valor 7 caso tenha
 
 		
