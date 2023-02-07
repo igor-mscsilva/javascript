@@ -57,11 +57,11 @@ Exemplo:
 '€ 1.545,50'
 
 Tipo de operadores ARITMÉTICOS
- 5 (+) 2 = 7
- 5 (-) 2 = 3
- 5 (*) 2 = 10
- 5 (/) 2 = 2.5
- 5 (%) 2 = 1 - seria o resto da conta
+ 5 (+) 2 = 7 - soma
+ 5 (-) 2 = 3 - subtração
+ 5 (*) 2 = 10 - multiplicação
+ 5 (/) 2 = 2.5 - divisão
+ 5 (%) 2 = 1 - seria o resto da conta - n%2== 0 - "n dividio por 2 resta 0
  5 (**) 2 = 25 - seria ao quadrado
 
 Ordem de Precedência
@@ -82,7 +82,7 @@ Operadores Relacionais
 
 Operadores Lógicos
 
-! - negação
+! - negação não
 && - conjunção ou (e) logico
 || - disjunção ou (ou) logico
 
@@ -203,6 +203,17 @@ for - para
 
 in - dentro ou em
 
-num.indexOf(7) - buscar o valor 7 caso tenha
+num.indexOf(7) - buscar o valor 7 caso tenha, se não tiver ele retorna -1
+
+===========Função===============
+
+Toda função tem CHAMADA / PARÂMETRO / AÇÃO e RETORNO
+
+FUNÇÕES :  São ações executadas assim que são CHAMADAS
+ou em decorrência de algum EVENTO.
+
+Uma FUNÇÃO pode receber PARÂMETROS e retornar um RESULTADO.
+
+================================
 
 		
