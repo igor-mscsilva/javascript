@@ -8,3 +8,8 @@ engordar(p){
 
 amigo.engordar(2) // adicionou 2 kilo na funcao enforgar
 console.log(`${amigo.nome} pesa ${amigo.peso} kg`)
+
+let num = 8
+
+
+console.log(num **= 2)
