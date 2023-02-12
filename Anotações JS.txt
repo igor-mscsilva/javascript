@@ -219,4 +219,11 @@ Uma FUNÇÃO pode receber PARÂMETROS e retornar um RESULTADO.
 window = seria a pagina inteira, toda janela do navegador.
 
 Document = se referindo ao arquivo "Página"
+
+
+Join - junta elementos
+
+lista.pop(); - (pop)remove o ultimo item do array
+
+lista.shift(); - (shift)remove o primeiro item do array
 		
