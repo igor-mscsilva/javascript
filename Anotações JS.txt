@@ -289,5 +289,15 @@ undefined
 numeros
 (6) [1, 2, 3, 4, 5, 6]
 
+===============================
+
+//REST OPERATOR
+
+function minhalista(...nomes){ // adicionando o (...) ele ira mostrar todos nomes passados no parametro(minhalista)
+    console.log(nomes);
+}
+
+minhalista('Igor', 'Mateus', 'João');
+
 
 	
