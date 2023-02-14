@@ -226,4 +226,68 @@ Join - junta elementos
 lista.pop(); - (pop)remove o ultimo item do array
 
 lista.shift(); - (shift)remove o primeiro item do array
-		
+
+setInterval(acao, 1000); - ira executar em 1 minutos infinitamente.
+
+clearInterval(timer); - ira parar o setInterval.
+
+setTimeout(acao, 3000); - ira executar somente um vez depois de 3 segundo.
+
+===============================
+Web Storage : localStorage / sessionStorage
+
+localStorage : salvar localmente no navegador
+
+sessionStorage : fica salvo no navegador enquanto o navegador estiver aberto, fechou perde.
+
+Exemplo: localStorage.setItem("nome", "Matheus") - Gravar a chave("nome"), e o valor("Matheus")
+
+localStorage.getItem("nome") - Puxar o nome gravado que é ("Matheus")
+
+localStorage.removeItem('nome'); - Remover item
+
+===========================
+
+TIPOS DE CRIAÇÃO DE VARIAVEL
+
+var = criar variavel e pode ser acessada fora do if
+
+let =  criar variavel e não pode ser acessada for do if ou escopo.
+
+const = uma variavel que não muda de valor (imutavel)
+
+
+=============================	
+
+Desconstruir de objetos Array
+
+const pessoa = {
+    nome: "Matheus",
+    sobrenome: "Fraga",
+    idade: "Desenvolvedor"
+};
+
+pessoa
+{nome: 'Matheus', sobrenome: 'Fraga', idade: 'Desenvolvedor'}
+
+let {sobrenome} = pessoa; - ira criar um variavel com nome "sobrenome" já atribuindo o nome do sobrenome.
+
+let {cargo : programador} = pessoa; - ira atribuir o cargo a variavel programador, trocando o nome da variavel cargo para programador
+
+===============================
+
+SPREAD OPERATOR
+
+let primeiros = [1,2,3];
+undefined
+primeiros
+(3) [1, 2, 3]
+let numeros = [4,5,6];
+undefined
+let numeros = [...primeiros,4,5,6]; - Juntar os numeros da primeira variavel com a segunda.
+undefined
+numeros
+(6) [1, 2, 3, 4, 5, 6]
+
+
+	
