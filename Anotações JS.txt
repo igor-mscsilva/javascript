@@ -360,9 +360,54 @@ console.log(nome.endsWith('Mat')); // letra ou frases
 
 Resposta: true
 
-
-
 ================================
+
+SOME EVERY
+
+SOME = verifica se tem pelo um (nome/string/valor) passado, e ira retornar true ou false
+
+ex: let nomes = ['Matheus', 'Lucas', 'Henrique'];
+
+//Verificar se no array acima tem o nome Matheus.
+console.log(nomes.some(nome => nome === 'Matheus'));
+
+EVERY = Verifica se todos sao true ou falso
+
+**ex**: let nomes = [
+    {nome: 'Matheus', idade: 18},
+    {nome: 'Maria', idade: 25},
+    {nome: 'Henrique', idade: 20}
+];
+// verifica se todas as idades são maior ou igual a 18, ira retornar true senão false
+console.log(nomes.every(nome => nome.idade >= 18));
+
+**ex02**: if(nomes.every(nome => nome.idade >= 18)){
+    console.log('TODOS SÃO MAIORES DE 18 :)')
+
+}else{
+    console.log('OPS ALGUÉM É DE MENOR ;(')
+}
+
+
+====================================
+
+COMPONENTS
+
+são todas as tag no html5
+
+==================================
+
+COMANDOS TERMINAL NODEjs
+
+node -v = mostrar a versao do node
+
+npm - v = mostrar a versao do npm
+
+npm = gerenciador de pacote (instalar varios tipos de bibliotecas)
+
+cd meuapp = acessar a pasta do meu projeto
+
+npm start = para rodar o projeto atual
 
 
 
