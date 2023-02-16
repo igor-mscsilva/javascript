@@ -1,21 +1,29 @@
-//REST OPERATOR
+// Array = [] / object = {}
+const lista = [1,2,3,4,5,6];
 
-/*function minhalista(...nomes){ // adicionando o (...) ele ira mostrar todos nomes passados no parametro(minhalista)
-    console.log(nomes);
-}
+// função map ira percorrer toda a lista
+const newlista = lista.map(function(item){
+    // fazer cada numero * 5
+    return item * 5 ;
+});
+console.log(newlista);
 
-minhalista('Igor', 'Mateus', 'João');*/
 
-function cadastrar(usuarios, ...newusers){
-    let totalusers = [
-        // juntar os 2
-        ...usuarios,
-        ...newusers
-    ];
-    return console.log(totalusers)
+const newlista1 = lista.map(function(item,index){
+    // fazer cada numero somar com o numero da posição
+    return item + index ;
+});
+console.log(newlista1);
 
-}
 
-let usuarios = ['Igor', 'Marcos'];
+const soma = lista.reduce(function(total,proxitem){
+    // total no começo é 0, e somando com o proximo item até chegar no valor total dos itens do array.
+    return total + proxitem
+});
+console.log(soma);
 
-let newusers = cadastrar(usuarios, 'João', 'Murilo');
+const busca = lista.find(function(item){
+    // ira buscar o numero na lista array, se tiver o numero ira retornar no console o numero se não ira retornar undefined.
+    return item === 6;
+});
+console.log(busca);

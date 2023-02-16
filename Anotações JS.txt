@@ -300,4 +300,71 @@ function minhalista(...nomes){ // adicionando o (...) ele ira mostrar todos nome
 minhalista('Igor', 'Mateus', 'João');
 
 
+=================================
+
+OPERAÇOES EM ARRAY
+
+
+MAP = percorrer cada posição do array fazer cada numero somar com o numero da posição.
+
+REDUCE = total no começo é 0, e somando com o proximo item até chegar no valor total dos itens do array.
+
+FIND = ira buscar o numero na lista array, se tiver o numero ira retornar no console o numero se não ira retornar undefined.
+
+==================================
+
+FUNÇOES ANONIMAS
+
+ => codigo reduzido com função anonima
+
+ex:
+
+function adicionar(...numeros){
+
+    let total1 = numeros.reduce((total,proxitem) => { // => codigo reduzido com função anonima
+        // total no começo é 0, e somando com o proximo item até chegar no valor total dos itens do array.
+        return total + proxitem
+    });
+    console.log(total1);
+
+
+}
+
+==================================
+
+
+METODOS: Includes, endsWith e startsWith
+
+Includes = verificar se a condição é verdadeira (true) ou falsa
+
+EX: let nomes = ['Igor', 'Mateus', 'João'];
+
+console.log(nomes.includes('Mateus'));
+
+--------------
+endsWith = verifica se terminar (string ou number) com aquilo que esta pedindo (true ou false)
+
+EX: let nome = 'Matheus';
+
+console.log(nome.endsWith('s')); // letra ou frases 
+
+Resposta: true
+
+--------------
+
+startswith = verifica se começa(string ou number) com aquilo que esta pedindo (true ou false)
+
+EX: let nome = 'Matheus';
+
+console.log(nome.endsWith('Mat')); // letra ou frases 
+
+Resposta: true
+
+
+
+================================
+
+
+
+
 	
