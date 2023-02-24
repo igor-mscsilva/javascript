@@ -409,6 +409,24 @@ cd meuapp = acessar a pasta do meu projeto
 
 npm start = para rodar o projeto atual
 
+====================================
+
+    REACT 
+
+Comando para cria o projeto
+
+Abra seu cmd normalmente e rode o comando:
+
+comando : npx create-react-app nome-app
+
+Depois de criar só acessar a pasta do seu projeto com o cmd
+
+comando: cd nome-app
+
+E ai rodar o comando: npm start
+
+Obs:Com isso irá rodar seu projeto no navegador :)
+
 
 
 
